@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "7.5.1"
+VERSION = "7.5.2-dev1"
 
 CLASSIFIERS = [
     "Development Status :: 4 - Beta",
@@ -14,7 +14,7 @@ CLASSIFIERS = [
 
 EXTRAS_REQUIRE = {
     "enum": ["marshmallow-enum"],
-    "union": ["marshmallow-union"],
+    "union": ["marshmallow-polyfield"],
     ':python_version == "3.6"': ["dataclasses"],
     "lint": ["pre-commit~=1.18"],
     "docs": ["sphinx"],
